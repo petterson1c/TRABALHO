@@ -1,19 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meus objetivos do ano</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Objectives</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .objectives {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            flex-direction: column;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .objective {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano_</h2>
-        <div class="botoes"></div>
-        <button class="botao">Conseguir um emprego</button>
-      <button class="botao">Orgulhar meus pais</button>
-      <button class="bota">Conquistar minhas coisas</button>
-      <button class="botao">Comprar um carro</button>
-    </section>
+    <div class="objectives">
+        <img class="profile-pic" src="https://example.com/PETTERSON ROGERIO.jpg" alt="Profile picture">
+        <h1 class="title">Petterson Rogerio</h1>
+        <div class="objective">
+            <p>Objective 1: Dar orgulho aos meus pais.</p>
+        </div>
+        <div class="objective">
+            <p>Objective 2: Me formar.</p>
+        </div>
+        <div class="objective">
+            <p>Objective 3: Conquistar minhas coisas.</p>
+        </div>
+    </div>
 </body>
 </html>
